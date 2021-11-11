@@ -1,8 +1,8 @@
 # base config in partials/branding, partials/head
 branding:
   org: The Michigan Daily
-  icon: /assets/m-logo.png
-  favicon: /assets/library.ico
+  icon: /assets/customImages/m-logo.png
+  favicon: /assets/customImages/library.ico
 
 # pages/categories, pages/index, partials/search
 landing:

@@ -1,0 +1,13 @@
+# base config in partials/branding, partials/head
+branding:
+  org: The Michigan Daily
+
+# pages/categories, pages/index, partials/search
+landing:
+  tagline: One place for our documentation.
+  quickLink: <a href="/meta/getting-started-with-library">Get Started.</a>
+
+# partials/footer
+footer:
+  helpText: Questions? Contact the MOEs.
+  defaultEmail: webteam@michigandaily.com

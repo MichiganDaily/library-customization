@@ -11,6 +11,33 @@ h1, h2, h3, h4, h5, h6 {
         p, ul, li, dt, dd {
             font-family: $font-serif;
         }
+
+        code {
+            color: $black;
+            font-size: 85%;
+            background-color: $accent-code-word;
+            -webkit-box-shadow: 4px 0px 0px $accent-code-word, -4px 0px 0px $accent-code-word;
+            -moz-box-shadow: 4px 0px 0px $accent-code-word, -4px 0px 0px $accent-code-word;
+            box-shadow: 4px 0px 0px $accent-code-word, -4px 0px 0px $accent-code-word;
+            border-radius: 6px;
+            padding: .2em 0;
+        }
+
+        pre {
+            padding: 16px 0px;
+            border-radius: 6px;
+            margin: 0;
+            &:before {
+                display: none;
+            }
+            code {
+                font-size: 100%;
+            }
+            .line-number::before{
+                color:  $black;
+                opacity: 0.25;
+            }
+        }
     }
 }
 

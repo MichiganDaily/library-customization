@@ -6,8 +6,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $font-serif;
 }
 
-.g-body{
-    .g-main-content{
+.g-body {
+    .g-main-content {
         p, ul, li, dt, dd {
             font-family: $font-serif;
         }
@@ -33,16 +33,12 @@ h1, h2, h3, h4, h5, h6 {
             code {
                 font-size: 100%;
             }
-            .line-number::before{
+            .line-number::before {
                 color:  $black;
                 opacity: 0.25;
             }
         }
     }
-}
-
-#main-search-page .main-item .featured-cat .cat-container.style-docs ul li .btn-homepage:hover{
-    color: $white;
 }
 
 div#main-search-page div.main-item div.branding h3.branding-label,
@@ -52,11 +48,29 @@ header#masthead.masthead div.container div.branding h3.branding-label
     font-weight: bold;
 }
 
-div.search-topper form.search-container button.icon:hover{
+#main-search-page .main-item .featured-cat {
+    .cat-container.style-button ul li {
+        display: inline-block;   
+    }
+    .cat-container {
+        padding-left: 40px;
+    }
+    .cat-container.style-docs ul li .btn-homepage:hover {
+        color: $white;
+    }
+}
+
+div.search-topper form.search-container button.icon:hover {
     background-color: $accent-dark;
 }
 
-.masthead .container .branding .branding-heading .logo{
+.masthead .container .branding .branding-heading .logo {
     margin-left: 0px;
     height: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    #main-search-page .main-item .featured-cat .cat-container {
+        padding-left: 0;
+    }
 }

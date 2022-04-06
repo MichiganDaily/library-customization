@@ -18,5 +18,5 @@ landing:
 
 # partials/footer
 footer:
-  helpText: Questions? See <a href="/technology/library">Library's documentation</a> or post in <a href="https://the-michigan-daily-hq.slack.com/messages/C01TPFZBX32">#websitehelp</a>
+  helpText: Questions? See <a href="/technology/library">Library's documentation</a> or post in <a href="https://app.slack.com/client/T01S9SM6UAV/C01TPFZBX32">#web-help</a>
   defaultEmail: webteam@michigandaily.com
